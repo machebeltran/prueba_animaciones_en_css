@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Animaciones en CSS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo_delicias.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cf66c35686.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="cabeza">
+                <div class="logo">
+                    <img src="./assets/img/logo_delicias.svg" alt="logo delicias Concava">
+                    <h1>Delicias Concava Premium</h1>
+                </div>
+                <nav class="menu">
+                    <input type="checkbox" id="desplegable">
+                    <label for="desplegable" class="menu-icono">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul class="menu-secciones">
+                         <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                         <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+         </header>
+         <aside class="menu2">
+            <div class="logo2">
+                <img src="./assets/img/logo_delicias.svg" alt="logo delicias Concava">
+            </div>
+            <ul class="menu-secciones2"></ul>
+                <li><a href="#freir">Para freir</a></li>
+                <li><a href="#hornear">Para hornear</a></li>
+                <li><a href="#coctel">Cocteleria</a></li>
+            </ul>
+        </aside>
+         <main>
+            <section>
+                <h2>Fabrica de masas</h2>
+                 <p class="texto-inicio">Estamos enfocados en ofecerle la mejor calidad en productos 100% artesanales al menor precio</p>
+            <article id="inicio" class="slider">
+                <div class="slider-contenedor">
+                    <div class="imagen1">
+                        <div class="fondo-slider">
+                        </div>                        
+                        <h3>Completamente artesanal    
+                        </h3>
+                    </div>
+                    <div class="imagen2">
+                        <div class="fondo-slider">
+                        </div>
+                        <h3>Sin aditivos, ni quimicos    
+                         </h3>
+                    </div>
+                    <div class="imagen3">
+                        <div class="fondo-slider">
+                        </div>
+                         <h3>100% natural   
+                        </h3>
+                    </div>
+                </article>
+            </section>
+            <section id="productos" class="contendor-cards">
+                <h4 id="freir" class="subtitulo1" >Para freir</h4>
+                <div  class="cards">
+                    <article class="card1">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/sopaipillas.jpeg" alt="fotografia de sopaipillas" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Sopaipillas</h5>
+                            <h6>Receta casera</h6>
+                        </div>    
+                            <button>Ver más</button>
+                    </article>
+                    <article class="card2">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/empanadas_freir.jpg" alt="fotografia de empanadas para freir" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Empanadas</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                     </article>
+                    <article class="card3">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/arrollados.jpg" alt="fotografia de arrollados" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Arrollados</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                    <article class="card4">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/masas.jpg" alt="fotografia de masas para empanadas" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Masas</h5>
+                            <h6>Horno y fritas</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                    <h4 id="hornear" class="subtitulo2">Para hornear</h4>
+                    <article class="card5">                        
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/empanaditas.jpg" alt="fotografia de empanaditas" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Empanaditas</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                    <article class="card6">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/pizetas.jpg" alt="fotografia de pizzetas" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Pizzetas</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                    <h4 id="coctel" class="subtitulo3">Coctelería</h4>
+                    <article class="card7">   
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/canapes.jpg" alt="fotografia de canapes" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Canapes</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                    <article class="card8">
+                        <div class="contenedor_img_card">
+                            <img src="./assets/img/minifajitas.jpg" alt="fotografia de minifajitas" class="img_card"> 
+                        </div>
+                        <div class="textos_productos">
+                            <h5>Minifajitas</h5>
+                            <h6>Variedades</h6>
+                        </div>    
+                        <button>Ver más</button>
+                    </article>
+                </div>
+            </section>
+         </main>
+         <footer id="contacto">
+            <section class="redes-sociales">
+                <div class="red">
+                    <a href="https://www.instagram.com/deliciaspremium_concava?igsh=MXI0Z3pyM2xwYXVhYg==" target="_blank">
+                    <img src="./assets/img/Instagram_icon.png" alt="Icono de instagram">
+                    </a>
+                </div> 
+                <div class="red">
+                    <a href="https://www.facebook.com/share/zjFwCvx2NgNTSkcH/?mibextid=qi2Omg" target="_blank">
+                    <img src="./assets/img/facebook_icon.png" alt="Icono de instagram">
+                    </a>
+                </div>
+                <div class="red">
+                    <a href="https://wa.me/56941646342" target="_blank">
+                    <img src="./assets/img/whatsapp_icon.png" alt="Icono de instagram">
+                    </a>
+                </div> 
+            </section>  
+         Todos los derechos reservados @desafiolatam         
+        </footer>
+    </div>
+</body>
+</html>
